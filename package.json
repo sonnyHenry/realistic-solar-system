@@ -1,0 +1,31 @@
+{
+  "name": "realistic-solar-system",
+  "version": "1.0.0",
+  "description": "基于Three.js的逼真太阳系模型",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "three.js",
+    "solar-system",
+    "3d",
+    "webgl",
+    "earth"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.4",
+    "lil-gui": "^0.19.1",
+    "postprocessing": "^6.33.4",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.161.2",
+    "vite": "^5.0.0"
+  }
+}

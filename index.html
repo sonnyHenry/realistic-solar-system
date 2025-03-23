@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>逼真的太阳系模型</title>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader"></div>
+    <div class="loading-text">加载中...</div>
+  </div>
+  
+  <canvas class="webgl"></canvas>
+  
+  <div class="info-panel">
+    <h2 id="planet-name">地球</h2>
+    <div id="planet-info">距太阳: 1天文单位</div>
+  </div>
+  
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html> 
